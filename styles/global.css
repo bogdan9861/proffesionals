@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1620px;
   width: 100%;
@@ -21,7 +25,6 @@ li {
   list-style: none;
 }
 
-
 * > img {
   width: 100%;
   height: 100%;
@@ -29,4 +32,25 @@ li {
 
 * > svg {
   width: 100%;
+}
+
+.registration__fileInput-label {
+  width: 150px;
+  padding: 10px;
+  background-color: #2e5fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.registration__fileInput {
+  display: none;
+}
+
+.registration__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,0 +1,45 @@
+body {
+  filter: grayscale(100%);
+}
+
+.competition .breadcrumbs {
+  display: none;
+}
+
+.competition .slider {
+  margin-bottom: 10px;
+}
+
+.competition .slider__slide {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.competition .slider__slide-content {
+  margin-top: 30px;
+}
+
+.competition .slider__slide-text {
+  margin-bottom: 0;
+}
+
+.competition .slider__slide-raiting {
+  display: none;
+}
+
+.competition .reviews__item {
+  display: block;
+}
+
+.competition .competitions__item-entries {
+  display: none;
+}
+
+.competition .slider__slide-btn {
+  display: none;
+}
+
+.competition .reviews__item {
+  margin-top: 0;
+  margin-left: 0;
+}

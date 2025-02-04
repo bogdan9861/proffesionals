@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+
+    <link href="../styles/global.css" rel="stylesheet" />
+    <link href="../styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="registration">
+      <div class="container">
+        <div class="registration__inner">
+          <h1 class="registration__title">Регистрация</h1>
+          <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__list-item">
+                <a class="breadcrumbs__list-link" href="./index.html"
+                  >Главная</a
+                >
+              </li>
+              <li class="breadcrumbs__list-item">
+                <span class="breadcrumbs__list-text" href="./index.html"
+                  >Регистрация</span
+                >
+              </li>
+            </ul>
+          </nav>
+          <form class="registration__form">
+            <input
+              class="registration__form-input"
+              type="email"
+              required
+              placeholder="Введите E-mail"
+            />
+            <input
+              class="registration__form-input"
+              type="text"
+              required
+              placeholder="Введите имя"
+            />
+            <input
+              class="registration__form-input"
+              type="text"
+              required
+              placeholder="Введите фамилию"
+            />
+            <select class="header__select" required style="margin-bottom: 15px">
+              <option value="male">Мужской</option>
+              <option value="fimale">Женский</option>
+            </select>
+            <input
+              class="registration__form-input"
+              type="password"
+              required
+              placeholder="Введите пароль"
+            />
+            <input
+              class="registration__form-input"
+              type="password"
+              required
+              placeholder="Повторите пароль"
+            />
+            <div class="registration__container" style="margin-bottom: 15px">
+              <label class="registration__fileInput-label">
+                Выберите файл
+                <input class="registration__fileInput" required type="file" />
+              </label>
+              <label class="subscribe__label" style="margin-top: 15px">
+                <input
+                  class="subscribe registration__form-input"
+                  required
+                  type="checkbox"
+                />
+                Согласие на обработку персональных данных
+              </label>
+            </div>
+            <div class="registration__members-wrapper">
+              <div class="registration__members-inner">
+                <span class="registration__members-title"
+                  >Добавьте новых членов семьи</span
+                >
+                <button class="registration__members-btn">+</button>
+              </div>
+              <div class="registration__members-item">
+                <div class="registration__members-item__head">
+                  <span class="registration__members-head__text"
+                    >Новый член семьи</span
+                  >
+                  <button class="registration__members-remove">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M3 6.98996C8.81444 4.87965 15.1856 4.87965 21 6.98996"
+                          stroke="#ffffff"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                        <path
+                          d="M8.00977 5.71997C8.00977 4.6591 8.43119 3.64175 9.18134 2.8916C9.93148 2.14146 10.9489 1.71997 12.0098 1.71997C13.0706 1.71997 14.0881 2.14146 14.8382 2.8916C15.5883 3.64175 16.0098 4.6591 16.0098 5.71997"
+                          stroke="#ffffff"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                        <path
+                          d="M12 13V18"
+                          stroke="#ffffff"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                        <path
+                          d="M19 9.98999L18.33 17.99C18.2225 19.071 17.7225 20.0751 16.9246 20.8123C16.1266 21.5494 15.0861 21.9684 14 21.99H10C8.91389 21.9684 7.87336 21.5494 7.07541 20.8123C6.27745 20.0751 5.77745 19.071 5.67001 17.99L5 9.98999"
+                          stroke="#ffffff"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+                <input
+                  class="registration__form-input"
+                  type="text"
+                  required
+                  placeholder="Введите фамилию"
+                />
+                <input
+                  class="registration__form-input"
+                  type="text"
+                  required
+                  placeholder="Введите имя"
+                />
+                <input
+                  class="registration__form-input"
+                  type="number"
+                  required
+                  placeholder="Введите возраст"
+                />
+                <select
+                  class="header__select"
+                  required
+                  style="margin-bottom: 15px"
+                >
+                  <option value="male">Мужской</option>
+                  <option value="fimale">Женский</option>
+                </select>
+              </div>
+            </div>
+
+            <button class="registration__form-btn" type="submit">Войти</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

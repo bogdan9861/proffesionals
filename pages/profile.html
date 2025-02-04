@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Профиль</title>
+    <link href="../styles/global.css" rel="stylesheet" />
+    <link href="../styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="profile">
+      <div class="container">
+        <div class="profile__head">
+          <h1 class="profile__title">Личный кабинет</h1>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Авторизация </a>
+              </li>
+              <li class="menu__list-item">
+                <span
+                  class="menu__list-link"
+                  href="#"
+                  style="color: rgba(0, 0, 0, 0.3)"
+                  >Личный кабинет</span
+                >
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О нас </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Конкурсы </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Поиск </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Контакты </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Выход </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__list-item">
+              <a class="breadcrumbs__list-link" href="./index.html">Главная</a>
+            </li>
+            <li class="breadcrumbs__list-item">
+              <span class="breadcrumbs__list-text" href="./index.html"
+                >Личный кабинет</span
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="profile__inner">
+          <form class="registration__form">
+            <select class="header__select" required style="margin-bottom: 15px">
+              <option value="male">Конкурс 1</option>
+              <option value="male">Конкурс 2</option>
+              <option value="male">Конкурс 3</option>
+              <option value="male">Конкурс 4</option>
+            </select>
+            <input
+              class="registration__form-input"
+              type="date"
+              min="2024-07-08"
+              max="2024-07-08"
+              value="2024-07-08"
+            />
+            <input
+              class="registration__form-input"
+              type="time"
+              required
+              value="09:00"
+              min="09:00"
+            />
+            <input
+              class="registration__form-input"
+              type="number"
+              required
+              placeholder="Количество человек"
+              min="0"
+              max="100"
+            />
+
+            <button class="registration__form-btn" type="submit">
+              Записаться
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

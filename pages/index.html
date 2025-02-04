@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моя семья</title>
+    <link href="../styles/global.css" rel="stylesheet" />
+    <link href="../styles/style.css" rel="stylesheet" />
+    <link href="../styles/dark-style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <img class="header__logo" src="../assets/icons/logo.svg" alt="" />
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="./registration.html"
+                  >Регистрация
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#auth">Авторизация </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="./profile.html"
+                  >Личный кабинет
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#about">О нас </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#competitions">Конкурсы </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#search">Поиск </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#contacts">Контакты </a>
+              </li>
+            </ul>
+          </nav>
+          <a href="./index-light.html">Светлая</a>
+        </div>
+      </div>
+    </header>
+    <section class="slider">
+      <div class="container">
+        <div class="slider__inner">
+          <div class="slider__slide">
+            <img
+              class="slider__slide-img"
+              src="../assets/images/slider-1.jpg"
+              alt=""
+            />
+            <div class="slider__slide-content">
+              <div class="slider__slide-raiting">
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#000000"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#ffffff"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <p class="slider__slide-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                perspiciatis in beatae aperiam unde, fugiat consequuntur,
+                excepturi illum amet, eveniet enim? Libero id, ducimus
+                perferendis rerum cum soluta blanditiis totam? Deleniti
+                asperiores, recusandae eius vel aperiam accusantium, suscipit
+                laudantium nam praesentium eligendi provident fuga temporibus
+                officiis similique libero, error optio. Animi asperiores
+                consequatur sequi possimus veniam quo veritatis harum inventore.
+              </p>
+              <a class="slider__slide-btn" href="./competition.html"
+                >Подробнее</a
+              >
+            </div>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__prev">
+              <svg
+                fill="#000000"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 100 100"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657 c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824 c-0.817-0.742-2.082-0.679-2.824,0.139L33.768,51.059c-0.439,0.485-0.59,1.126-0.475,1.723 C33.234,53.39,33.446,54.017,33.934,54.458z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </button>
+            <button class="slider__next">
+              <svg
+                style="transform: rotate(180deg)"
+                fill="#000000"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 100 100"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657 c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824 c-0.817-0.742-2.082-0.679-2.824,0.139L33.768,51.059c-0.439,0.485-0.59,1.126-0.475,1.723 C33.234,53.39,33.446,54.017,33.934,54.458z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="registration" id="auth">
+      <div class="container">
+        <div class="registration__inner">
+          <h1 class="registration__title">Авторизация</h1>
+          <form class="registration__form">
+            <input
+              class="registration__form-input"
+              type="email"
+              placeholder="Введите E-mail"
+            />
+            <input
+              class="registration__form-input"
+              type="password"
+              placeholder="Введите пароль"
+            />
+            <a class="registration__form-link" href="#">Забыли пароль?</a>
+            <button class="registration__form-btn">Войти</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__content">
+            <h1 class="about__title">О нас</h1>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              ipsam hic iste amet obcaecati inventore, corrupti tenetur eos
+              recusandae accusantium molestiae quo temporibus animi eligendi,
+              aspernatur commodi perferendis ullam in.
+            </p>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              ipsam hic iste amet obcaecati inventore, corrupti tenetur eos
+              recusandae accusantium molestiae quo temporibus animi eligendi,
+              aspernatur commodi perferendis ullam in.
+            </p>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              ipsam hic iste amet obcaecati inventore, corrupti tenetur eos
+              recusandae accusantium molestiae quo temporibus animi eligendi,
+              aspernatur commodi perferendis ullam in.
+            </p>
+          </div>
+          <img class="about__img" src="../assets/images/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="greetings">
+      <iframe
+        class="greetings__video"
+        src="https://www.youtube.com/embed/NaHiq0QkOaA"
+        title="ВЕНГАЛБИ ЗАБРАЛ ВСЕ МАШИНЫ ТАМАЕВА! КОНЕЦ ГОНКАМ!"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section class="competitions" id="competitions">
+      <div class="container">
+        <h1 class="competitions__title">Конкурсы</h1>
+        <div class="competitions__inner">
+          <div class="competitions__item">
+            <img
+              class="competitions__item-img"
+              src="../assets/images/competishon.jpg"
+              alt=""
+            />
+            <div class="competitions__item-content">
+              <div class="competitions__item-raiting slider__slide-raiting">
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#000000"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#ffffff"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="competitions__item-title">Название конкурса</h3>
+              <p class="competitions__item-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                earum sapiente ratione expedita recusandae blanditiis nihil quia
+                placeat, dolorem dolores reprehenderit sed obcaecati soluta esse
+                quisquam, quae ipsum assumenda ab!
+              </p>
+              <span class="competitions__item-entries">Записией: 23</span>
+              <a class="competitions__item-link slider__slide-btn" href="#"
+                >Перейти</a
+              >
+            </div>
+          </div>
+          <div class="competitions__item">
+            <img
+              class="competitions__item-img"
+              src="../assets/images/competishon.jpg"
+              alt=""
+            />
+            <div class="competitions__item-content">
+              <div class="competitions__item-raiting slider__slide-raiting">
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#000000"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#ffffff"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="competitions__item-title">Название конкурса</h3>
+              <p class="competitions__item-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                earum sapiente ratione expedita recusandae blanditiis nihil quia
+                placeat, dolorem dolores reprehenderit sed obcaecati soluta esse
+                quisquam, quae ipsum assumenda ab!
+              </p>
+              <span class="competitions__item-entries">Записией: 23</span>
+              <a class="competitions__item-link slider__slide-btn" href="#"
+                >Перейти</a
+              >
+            </div>
+          </div>
+          <div class="competitions__item">
+            <img
+              class="competitions__item-img"
+              src="../assets/images/competishon.jpg"
+              alt=""
+            />
+            <div class="competitions__item-content">
+              <div class="competitions__item-raiting slider__slide-raiting">
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#000000"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#ffffff"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="competitions__item-title">Название конкурса</h3>
+              <p class="competitions__item-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                earum sapiente ratione expedita recusandae blanditiis nihil quia
+                placeat, dolorem dolores reprehenderit sed obcaecati soluta esse
+                quisquam, quae ipsum assumenda ab!
+              </p>
+              <span class="competitions__item-entries">Записией: 23</span>
+              <a class="competitions__item-link slider__slide-btn" href="#"
+                >Перейти</a
+              >
+            </div>
+          </div>
+          <div class="competitions__item">
+            <img
+              class="competitions__item-img"
+              src="../assets/images/competishon.jpg"
+              alt=""
+            />
+            <div class="competitions__item-content">
+              <div class="competitions__item-raiting slider__slide-raiting">
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#000000"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#ffffff"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="competitions__item-title">Название конкурса</h3>
+              <p class="competitions__item-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                earum sapiente ratione expedita recusandae blanditiis nihil quia
+                placeat, dolorem dolores reprehenderit sed obcaecati soluta esse
+                quisquam, quae ipsum assumenda ab!
+              </p>
+              <span class="competitions__item-entries">Записией: 23</span>
+              <a class="competitions__item-link slider__slide-btn" href="#"
+                >Перейти</a
+              >
+            </div>
+          </div>
+          <div class="competitions__item">
+            <img
+              class="competitions__item-img"
+              src="../assets/images/competishon.jpg"
+              alt=""
+            />
+            <div class="competitions__item-content">
+              <div class="competitions__item-raiting slider__slide-raiting">
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#b0b0b0"
+                  stroke="#b0b0b0"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#d4ff00"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+                <svg
+                  version="1.0"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="227px"
+                  height="227px"
+                  viewBox="-3.84 -3.84 71.68 71.68"
+                  enable-background="new 0 0 64 64"
+                  xml:space="preserve"
+                  fill="#000000"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fill="#ffffff"
+                      d="M63.893,24.277c-0.238-0.711-0.854-1.229-1.595-1.343l-19.674-3.006L33.809,1.15 C33.479,0.448,32.773,0,31.998,0s-1.48,0.448-1.811,1.15l-8.815,18.778L1.698,22.935c-0.741,0.113-1.356,0.632-1.595,1.343 c-0.238,0.71-0.059,1.494,0.465,2.031l14.294,14.657L11.484,61.67c-0.124,0.756,0.195,1.517,0.822,1.957 c0.344,0.243,0.747,0.366,1.151,0.366c0.332,0,0.666-0.084,0.968-0.25l17.572-9.719l17.572,9.719c0.302,0.166,0.636,0.25,0.968,0.25 c0.404,0,0.808-0.123,1.151-0.366c0.627-0.44,0.946-1.201,0.822-1.957l-3.378-20.704l14.294-14.657 C63.951,25.771,64.131,24.987,63.893,24.277z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <h3 class="competitions__item-title">Название конкурса</h3>
+              <p class="competitions__item-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                earum sapiente ratione expedita recusandae blanditiis nihil quia
+                placeat, dolorem dolores reprehenderit sed obcaecati soluta esse
+                quisquam, quae ipsum assumenda ab!
+              </p>
+              <span class="competitions__item-entries">Записией: 23</span>
+              <a class="competitions__item-link slider__slide-btn" href="#"
+                >Перейти</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search" id="search">
+      <div class="container">
+        <h1 class="search__title">Поиск конкурса</h1>
+        <div class="search__inner">
+          <form class="search__form">
+            <div class="search__form-inner">
+              <input
+                class="search__form-input"
+                placeholder="Введите названия конкурса"
+              />
+              <ul class="search__form-tips search__form-tips--visable">
+                <li class="search__form-tips__item">Место для подсказки</li>
+                <li class="search__form-tips__item">Место для подсказки</li>
+                <li class="search__form-tips__item">Место для подсказки</li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h1 class="reviews__title">Отзывы</h1>
+        <div class="reviews__inner">
+          <div class="reviews__item">
+            <img
+              class="reviews__item-img"
+              src="../assets/images/review.jpg"
+              alt=""
+            />
+            <div class="reviews__item-content">
+              <span class="reviews__item-name">Иван</span>
+              <p class="reviews__item-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Perspiciatis quos asperiores sunt esse libero hic culpa.
+                Architecto odio, sunt esse quasi eaque odit? Expedita cum cumque
+                vitae culpa accusamus optio.
+              </p>
+              <div class="reviews__item-content__inner">
+                <a class="reviews__item-link slider__slide-btn" href="#"
+                  >Перейти</a
+                >
+                <span class="reviews__item-date">01.02.2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__item reviews__item--active">
+            <img
+              class="reviews__item-img"
+              src="../assets/images/review.jpg"
+              alt=""
+            />
+            <div class="reviews__item-content">
+              <span class="reviews__item-name">Иван</span>
+              <p class="reviews__item-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Perspiciatis quos asperiores sunt esse libero hic culpa.
+                Architecto odio, sunt esse quasi eaque odit? Expedita cum cumque
+                vitae culpa accusamus optio.
+              </p>
+              <div class="reviews__item-content__inner">
+                <a class="reviews__item-link slider__slide-btn" href="#"
+                  >Перейти</a
+                >
+                <span class="reviews__item-date">01.02.2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__item">
+            <img
+              class="reviews__item-img"
+              src="../assets/images/review.jpg"
+              alt=""
+            />
+            <div class="reviews__item-content">
+              <span class="reviews__item-name">Иван</span>
+              <p class="reviews__item-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Perspiciatis quos asperiores sunt esse libero hic culpa.
+                Architecto odio, sunt esse quasi eaque odit? Expedita cum cumque
+                vitae culpa accusamus optio.
+              </p>
+              <div class="reviews__item-content__inner">
+                <a class="reviews__item-link slider__slide-btn" href="#"
+                  >Перейти</a
+                >
+                <span class="reviews__item-date">01.02.2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe registration">
+      <div class="container">
+        <div class="registration__inner">
+          <h1 class="registration__title">Подпишитесь на наши новости</h1>
+          <form class="registration__form">
+            <input
+              class="registration__form-input"
+              type="email"
+              placeholder="Введите E-mail"
+            />
+            <label class="subscribe__label">
+              <input
+                class="subscribe registration__form-input"
+                type="checkbox"
+              />
+              Согласие на обработку персональных данных
+            </label>
+
+            <button class="registration__form-btn">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer__inner">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="tel:+74842234567"
+                >+7 (4842) 23-45-67</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="mailto:family@cosmos.ru"
+                >family@cosmos.ru</a
+              >
+            </li>
+          </ul>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Регистрация </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Авторизация </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Личный кабинет </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О нас </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Конкурсы </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Поиск </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Контакты </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

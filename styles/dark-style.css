@@ -1,0 +1,50 @@
+body {
+  background-color: #0e1621;
+  color: #f5f5d7;
+}
+
+input {
+  background-color: #242f3d;
+  border: none !important;
+}
+
+.about {
+  background-color: #141c27;
+}
+
+.competitions {
+  background-color: #141c27;
+}
+
+.competitions__item {
+  background-color: #17212b;
+}
+
+.competitions__item-entries {
+  color: #f5f5d7;
+}
+
+.reviews {
+  background-color: #141c27;
+}
+
+.search__form-tips {
+  background-color: #17212b;
+}
+
+.search__form-tips__item {
+  color: #e2e2e2;
+  border-bottom: 1px solid #242f3d;
+}
+
+.reviews__item {
+  background-color: #17212b;
+}
+
+.reviews__item-date {
+  color: #f5f5d7;
+}
+
+.footer {
+  background-color: #141c27;
+}
